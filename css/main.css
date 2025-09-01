@@ -30,6 +30,11 @@ h5 {
     flex-direction: row;
 }
 
+.card-profile-wrap {
+    display: flex;
+    width: 100%;
+}
+
 .card-profile {
     display: flex;
     align-items: center;
@@ -38,6 +43,14 @@ h5 {
 .profile-content {
     padding: 20px;
     width: 100%;
+}
+
+.profile-content-left {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    border-left: 1px solid #ddd;
+    padding-left: 60px;
 }
 
 .location-wrap {
@@ -138,5 +151,15 @@ h5 {
     }
     .linkedout-col {
         padding-left: 0px;
+    }
+    .container-wrap {
+        padding: 32px;
+    }
+    .card-main {
+        flex-direction: column;
+    }
+    .profile-content-left {
+        border-left: 0px;
+        padding-left: 20px;
     }
 }
